@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.example.level1.dao.StaffMapper">
+<mapper namespace="com.example.level1.mapper.StaffMapper">
   <resultMap id="BaseResultMap" type="com.example.level1.entity.Staff">
     <!--
-      WARNING - @mbg.generated  This element was generated on Mon Jul 11 16:39:07 CST 2022. by MyBatis Generator, do not modify.
+      WARNING - @mbg.generated  This element was generated on Mon Jul 11 20:27:33 CST 2022. by MyBatis Generator, do not modify.
     -->
     <result column="id" jdbcType="VARCHAR" property="id" />
     <result column="name" jdbcType="VARCHAR" property="name" />
@@ -14,7 +14,7 @@
   </resultMap>
   <sql id="Example_Where_Clause">
     <!--
-      WARNING - @mbg.generated  This element was generated on Mon Jul 11 16:39:07 CST 2022. by MyBatis Generator, do not modify.
+      WARNING - @mbg.generated  This element was generated on Mon Jul 11 20:27:33 CST 2022. by MyBatis Generator, do not modify.
     -->
     <where>
       <foreach collection="oredCriteria" item="criteria" separator="or">
@@ -46,7 +46,7 @@
   </sql>
   <sql id="Update_By_Example_Where_Clause">
     <!--
-      WARNING - @mbg.generated  This element was generated on Mon Jul 11 16:39:07 CST 2022. by MyBatis Generator, do not modify.
+      WARNING - @mbg.generated  This element was generated on Mon Jul 11 20:27:33 CST 2022. by MyBatis Generator, do not modify.
     -->
     <where>
       <foreach collection="example.oredCriteria" item="criteria" separator="or">
@@ -78,13 +78,13 @@
   </sql>
   <sql id="Base_Column_List">
     <!--
-      WARNING - @mbg.generated  This element was generated on Mon Jul 11 16:39:07 CST 2022. by MyBatis Generator, do not modify.
+      WARNING - @mbg.generated  This element was generated on Mon Jul 11 20:27:33 CST 2022. by MyBatis Generator, do not modify.
     -->
     id, `name`, sex, phone, cloud_account, cloud_password
   </sql>
   <select id="selectByExample" parameterType="com.example.level1.entity.StaffExample" resultMap="BaseResultMap">
     <!--
-      WARNING - @mbg.generated  This element was generated on Mon Jul 11 16:39:07 CST 2022. by MyBatis Generator, do not modify.
+      WARNING - @mbg.generated  This element was generated on Mon Jul 11 20:27:33 CST 2022. by MyBatis Generator, do not modify.
     -->
     select
     <if test="distinct">
@@ -101,7 +101,7 @@
   </select>
   <delete id="deleteByExample" parameterType="com.example.level1.entity.StaffExample">
     <!--
-      WARNING - @mbg.generated  This element was generated on Mon Jul 11 16:39:07 CST 2022. by MyBatis Generator, do not modify.
+      WARNING - @mbg.generated  This element was generated on Mon Jul 11 20:27:33 CST 2022. by MyBatis Generator, do not modify.
     -->
     delete from `staff`
     <if test="_parameter != null">
@@ -110,7 +110,7 @@
   </delete>
   <insert id="insert" parameterType="com.example.level1.entity.Staff">
     <!--
-      WARNING - @mbg.generated  This element was generated on Mon Jul 11 16:39:07 CST 2022. by MyBatis Generator, do not modify.
+      WARNING - @mbg.generated  This element was generated on Mon Jul 11 20:27:33 CST 2022. by MyBatis Generator, do not modify.
     -->
     insert into `staff` (id, `name`, sex, phone, 
       cloud_account, cloud_password)
@@ -119,7 +119,7 @@
   </insert>
   <insert id="insertSelective" parameterType="com.example.level1.entity.Staff">
     <!--
-      WARNING - @mbg.generated  This element was generated on Mon Jul 11 16:39:07 CST 2022. by MyBatis Generator, do not modify.
+      WARNING - @mbg.generated  This element was generated on Mon Jul 11 20:27:33 CST 2022. by MyBatis Generator, do not modify.
     -->
     insert into `staff`
     <trim prefix="(" suffix=")" suffixOverrides=",">
@@ -165,7 +165,7 @@
   </insert>
   <select id="countByExample" parameterType="com.example.level1.entity.StaffExample" resultType="java.lang.Long">
     <!--
-      WARNING - @mbg.generated  This element was generated on Mon Jul 11 16:39:07 CST 2022. by MyBatis Generator, do not modify.
+      WARNING - @mbg.generated  This element was generated on Mon Jul 11 20:27:33 CST 2022. by MyBatis Generator, do not modify.
     -->
     select count(*) from `staff`
     <if test="_parameter != null">
@@ -174,7 +174,7 @@
   </select>
   <update id="updateByExampleSelective" parameterType="map">
     <!--
-      WARNING - @mbg.generated  This element was generated on Mon Jul 11 16:39:07 CST 2022. by MyBatis Generator, do not modify.
+      WARNING - @mbg.generated  This element was generated on Mon Jul 11 20:27:33 CST 2022. by MyBatis Generator, do not modify.
     -->
     update `staff`
     <set>
@@ -203,7 +203,7 @@
   </update>
   <update id="updateByExample" parameterType="map">
     <!--
-      WARNING - @mbg.generated  This element was generated on Mon Jul 11 16:39:07 CST 2022. by MyBatis Generator, do not modify.
+      WARNING - @mbg.generated  This element was generated on Mon Jul 11 20:27:33 CST 2022. by MyBatis Generator, do not modify.
     -->
     update `staff`
     set id = #{record.id,jdbcType=VARCHAR},

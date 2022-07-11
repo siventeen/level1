@@ -13,27 +13,27 @@ public class MeetingRoom implements Serializable {
     /**
      *
      *
-     * @mbg.generated Mon Jul 11 16:33:09 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:22 CST 2022
      */
     private String id;
 
     /**
      *
      *
-     * @mbg.generated Mon Jul 11 16:33:09 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:22 CST 2022
      */
     private String name;
 
     /**
      *
      *
-     * @mbg.generated Mon Jul 11 16:33:09 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:22 CST 2022
      */
     private Integer seat_number;
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:33:09 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:22 CST 2022
      */
     private static final long serialVersionUID = 1L;
 
@@ -42,7 +42,7 @@ public class MeetingRoom implements Serializable {
      *
      * @return the value of meeting_room.id
      *
-     * @mbg.generated Mon Jul 11 16:33:09 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:22 CST 2022
      */
     public String getId() {
         return id;
@@ -50,7 +50,7 @@ public class MeetingRoom implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:33:09 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:22 CST 2022
      */
     public MeetingRoom withId(String id) {
         this.setId(id);
@@ -62,7 +62,7 @@ public class MeetingRoom implements Serializable {
      *
      * @param id the value for meeting_room.id
      *
-     * @mbg.generated Mon Jul 11 16:33:09 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:22 CST 2022
      */
     public void setId(String id) {
         this.id = id;
@@ -73,7 +73,7 @@ public class MeetingRoom implements Serializable {
      *
      * @return the value of meeting_room.name
      *
-     * @mbg.generated Mon Jul 11 16:33:09 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:22 CST 2022
      */
     public String getName() {
         return name;
@@ -81,7 +81,7 @@ public class MeetingRoom implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:33:09 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:22 CST 2022
      */
     public MeetingRoom withName(String name) {
         this.setName(name);
@@ -93,7 +93,7 @@ public class MeetingRoom implements Serializable {
      *
      * @param name the value for meeting_room.name
      *
-     * @mbg.generated Mon Jul 11 16:33:09 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:22 CST 2022
      */
     public void setName(String name) {
         this.name = name;
@@ -104,7 +104,7 @@ public class MeetingRoom implements Serializable {
      *
      * @return the value of meeting_room.seat_number
      *
-     * @mbg.generated Mon Jul 11 16:33:09 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:22 CST 2022
      */
     public Integer getSeat_number() {
         return seat_number;
@@ -112,7 +112,7 @@ public class MeetingRoom implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:33:09 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:22 CST 2022
      */
     public MeetingRoom withSeat_number(Integer seat_number) {
         this.setSeat_number(seat_number);
@@ -124,7 +124,7 @@ public class MeetingRoom implements Serializable {
      *
      * @param seat_number the value for meeting_room.seat_number
      *
-     * @mbg.generated Mon Jul 11 16:33:09 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:22 CST 2022
      */
     public void setSeat_number(Integer seat_number) {
         this.seat_number = seat_number;
@@ -132,7 +132,7 @@ public class MeetingRoom implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:33:09 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:22 CST 2022
      */
     @Override
     public String toString() {
@@ -149,7 +149,7 @@ public class MeetingRoom implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:33:09 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:22 CST 2022
      */
     @Override
     public boolean equals(Object that) {
@@ -170,7 +170,7 @@ public class MeetingRoom implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:33:09 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:22 CST 2022
      */
     @Override
     public int hashCode() {

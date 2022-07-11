@@ -6,25 +6,25 @@ import java.util.List;
 public class CompanyExample {
     /**
      *
-     * @mbg.generated Mon Jul 11 16:29:42 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:15 CST 2022
      */
     protected String orderByClause;
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:29:42 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:15 CST 2022
      */
     protected boolean distinct;
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:29:42 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:15 CST 2022
      */
     protected List<Criteria> oredCriteria;
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:29:42 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:15 CST 2022
      */
     public CompanyExample() {
         oredCriteria = new ArrayList<Criteria>();
@@ -32,7 +32,7 @@ public class CompanyExample {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:29:42 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:15 CST 2022
      */
     public void setOrderByClause(String orderByClause) {
         this.orderByClause = orderByClause;
@@ -40,7 +40,7 @@ public class CompanyExample {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:29:42 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:15 CST 2022
      */
     public String getOrderByClause() {
         return orderByClause;
@@ -48,7 +48,7 @@ public class CompanyExample {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:29:42 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:15 CST 2022
      */
     public void setDistinct(boolean distinct) {
         this.distinct = distinct;
@@ -56,7 +56,7 @@ public class CompanyExample {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:29:42 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:15 CST 2022
      */
     public boolean isDistinct() {
         return distinct;
@@ -64,7 +64,7 @@ public class CompanyExample {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:29:42 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:15 CST 2022
      */
     public List<Criteria> getOredCriteria() {
         return oredCriteria;
@@ -72,7 +72,7 @@ public class CompanyExample {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:29:42 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:15 CST 2022
      */
     public void or(Criteria criteria) {
         oredCriteria.add(criteria);
@@ -80,7 +80,7 @@ public class CompanyExample {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:29:42 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:15 CST 2022
      */
     public Criteria or() {
         Criteria criteria = createCriteriaInternal();
@@ -90,7 +90,7 @@ public class CompanyExample {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:29:42 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:15 CST 2022
      */
     public Criteria createCriteria() {
         Criteria criteria = createCriteriaInternal();
@@ -102,7 +102,7 @@ public class CompanyExample {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:29:42 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:15 CST 2022
      */
     protected Criteria createCriteriaInternal() {
         Criteria criteria = new Criteria();
@@ -111,7 +111,7 @@ public class CompanyExample {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:29:42 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:15 CST 2022
      */
     public void clear() {
         oredCriteria.clear();
@@ -121,7 +121,7 @@ public class CompanyExample {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:29:42 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:15 CST 2022
      */
     protected abstract static class GeneratedCriteria {
         protected List<Criterion> criteria;
@@ -392,7 +392,7 @@ public class CompanyExample {
 
     /**
      *
-     * @mbg.generated do_not_delete_during_merge Mon Jul 11 16:29:42 CST 2022
+     * @mbg.generated do_not_delete_during_merge Mon Jul 11 20:27:15 CST 2022
      */
     public static class Criteria extends GeneratedCriteria {
 
@@ -403,7 +403,7 @@ public class CompanyExample {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:29:42 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:15 CST 2022
      */
     public static class Criterion {
         private String condition;

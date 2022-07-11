@@ -14,69 +14,69 @@ public class Meeting implements Serializable {
     /**
      *
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     private String id;
 
     /**
      *
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     private String name;
 
     /**
      *
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     private Date start_time;
 
     /**
      *
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     private Date end_time;
 
     /**
      *
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     private Boolean is_period;
 
     /**
      *
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     private Byte status;
 
     /**
      *
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     private String room_id;
 
     /**
      *
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     private String reserve_person_id;
 
     /**
      *
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     private Boolean is_video;
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     private static final long serialVersionUID = 1L;
 
@@ -85,7 +85,7 @@ public class Meeting implements Serializable {
      *
      * @return the value of meeting.id
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     public String getId() {
         return id;
@@ -93,7 +93,7 @@ public class Meeting implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     public Meeting withId(String id) {
         this.setId(id);
@@ -105,7 +105,7 @@ public class Meeting implements Serializable {
      *
      * @param id the value for meeting.id
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     public void setId(String id) {
         this.id = id;
@@ -116,7 +116,7 @@ public class Meeting implements Serializable {
      *
      * @return the value of meeting.name
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     public String getName() {
         return name;
@@ -124,7 +124,7 @@ public class Meeting implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     public Meeting withName(String name) {
         this.setName(name);
@@ -136,7 +136,7 @@ public class Meeting implements Serializable {
      *
      * @param name the value for meeting.name
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     public void setName(String name) {
         this.name = name;
@@ -147,7 +147,7 @@ public class Meeting implements Serializable {
      *
      * @return the value of meeting.start_time
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     public Date getStart_time() {
         return start_time;
@@ -155,7 +155,7 @@ public class Meeting implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     public Meeting withStart_time(Date start_time) {
         this.setStart_time(start_time);
@@ -167,7 +167,7 @@ public class Meeting implements Serializable {
      *
      * @param start_time the value for meeting.start_time
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     public void setStart_time(Date start_time) {
         this.start_time = start_time;
@@ -178,7 +178,7 @@ public class Meeting implements Serializable {
      *
      * @return the value of meeting.end_time
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     public Date getEnd_time() {
         return end_time;
@@ -186,7 +186,7 @@ public class Meeting implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     public Meeting withEnd_time(Date end_time) {
         this.setEnd_time(end_time);
@@ -198,7 +198,7 @@ public class Meeting implements Serializable {
      *
      * @param end_time the value for meeting.end_time
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     public void setEnd_time(Date end_time) {
         this.end_time = end_time;
@@ -209,7 +209,7 @@ public class Meeting implements Serializable {
      *
      * @return the value of meeting.is_period
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     public Boolean getIs_period() {
         return is_period;
@@ -217,7 +217,7 @@ public class Meeting implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     public Meeting withIs_period(Boolean is_period) {
         this.setIs_period(is_period);
@@ -229,7 +229,7 @@ public class Meeting implements Serializable {
      *
      * @param is_period the value for meeting.is_period
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     public void setIs_period(Boolean is_period) {
         this.is_period = is_period;
@@ -240,7 +240,7 @@ public class Meeting implements Serializable {
      *
      * @return the value of meeting.status
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     public Byte getStatus() {
         return status;
@@ -248,7 +248,7 @@ public class Meeting implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     public Meeting withStatus(Byte status) {
         this.setStatus(status);
@@ -260,7 +260,7 @@ public class Meeting implements Serializable {
      *
      * @param status the value for meeting.status
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     public void setStatus(Byte status) {
         this.status = status;
@@ -271,7 +271,7 @@ public class Meeting implements Serializable {
      *
      * @return the value of meeting.room_id
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     public String getRoom_id() {
         return room_id;
@@ -279,7 +279,7 @@ public class Meeting implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     public Meeting withRoom_id(String room_id) {
         this.setRoom_id(room_id);
@@ -291,7 +291,7 @@ public class Meeting implements Serializable {
      *
      * @param room_id the value for meeting.room_id
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     public void setRoom_id(String room_id) {
         this.room_id = room_id;
@@ -302,7 +302,7 @@ public class Meeting implements Serializable {
      *
      * @return the value of meeting.reserve_person_id
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     public String getReserve_person_id() {
         return reserve_person_id;
@@ -310,7 +310,7 @@ public class Meeting implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     public Meeting withReserve_person_id(String reserve_person_id) {
         this.setReserve_person_id(reserve_person_id);
@@ -322,7 +322,7 @@ public class Meeting implements Serializable {
      *
      * @param reserve_person_id the value for meeting.reserve_person_id
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     public void setReserve_person_id(String reserve_person_id) {
         this.reserve_person_id = reserve_person_id;
@@ -333,7 +333,7 @@ public class Meeting implements Serializable {
      *
      * @return the value of meeting.is_video
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     public Boolean getIs_video() {
         return is_video;
@@ -341,7 +341,7 @@ public class Meeting implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     public Meeting withIs_video(Boolean is_video) {
         this.setIs_video(is_video);
@@ -353,7 +353,7 @@ public class Meeting implements Serializable {
      *
      * @param is_video the value for meeting.is_video
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     public void setIs_video(Boolean is_video) {
         this.is_video = is_video;
@@ -361,7 +361,7 @@ public class Meeting implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     @Override
     public String toString() {
@@ -384,7 +384,7 @@ public class Meeting implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     @Override
     public boolean equals(Object that) {
@@ -411,7 +411,7 @@ public class Meeting implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:33:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:25 CST 2022
      */
     @Override
     public int hashCode() {

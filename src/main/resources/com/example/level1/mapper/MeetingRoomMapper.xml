@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.example.level1.dao.MeetingRoomMapper">
+<mapper namespace="com.example.level1.mapper.MeetingRoomMapper">
   <resultMap id="BaseResultMap" type="com.example.level1.entity.MeetingRoom">
     <!--
-      WARNING - @mbg.generated  This element was generated on Mon Jul 11 16:33:09 CST 2022. by MyBatis Generator, do not modify.
+      WARNING - @mbg.generated  This element was generated on Mon Jul 11 20:27:22 CST 2022. by MyBatis Generator, do not modify.
     -->
     <id column="id" jdbcType="VARCHAR" property="id" />
     <result column="name" jdbcType="VARCHAR" property="name" />
@@ -11,7 +11,7 @@
   </resultMap>
   <sql id="Example_Where_Clause">
     <!--
-      WARNING - @mbg.generated  This element was generated on Mon Jul 11 16:33:09 CST 2022. by MyBatis Generator, do not modify.
+      WARNING - @mbg.generated  This element was generated on Mon Jul 11 20:27:22 CST 2022. by MyBatis Generator, do not modify.
     -->
     <where>
       <foreach collection="oredCriteria" item="criteria" separator="or">
@@ -43,7 +43,7 @@
   </sql>
   <sql id="Update_By_Example_Where_Clause">
     <!--
-      WARNING - @mbg.generated  This element was generated on Mon Jul 11 16:33:09 CST 2022. by MyBatis Generator, do not modify.
+      WARNING - @mbg.generated  This element was generated on Mon Jul 11 20:27:22 CST 2022. by MyBatis Generator, do not modify.
     -->
     <where>
       <foreach collection="example.oredCriteria" item="criteria" separator="or">
@@ -75,13 +75,13 @@
   </sql>
   <sql id="Base_Column_List">
     <!--
-      WARNING - @mbg.generated  This element was generated on Mon Jul 11 16:33:09 CST 2022. by MyBatis Generator, do not modify.
+      WARNING - @mbg.generated  This element was generated on Mon Jul 11 20:27:22 CST 2022. by MyBatis Generator, do not modify.
     -->
     id, `name`, seat_number
   </sql>
   <select id="selectByExample" parameterType="com.example.level1.entity.MeetingRoomExample" resultMap="BaseResultMap">
     <!--
-      WARNING - @mbg.generated  This element was generated on Mon Jul 11 16:33:09 CST 2022. by MyBatis Generator, do not modify.
+      WARNING - @mbg.generated  This element was generated on Mon Jul 11 20:27:22 CST 2022. by MyBatis Generator, do not modify.
     -->
     select
     <if test="distinct">
@@ -98,7 +98,7 @@
   </select>
   <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
     <!--
-      WARNING - @mbg.generated  This element was generated on Mon Jul 11 16:33:09 CST 2022. by MyBatis Generator, do not modify.
+      WARNING - @mbg.generated  This element was generated on Mon Jul 11 20:27:22 CST 2022. by MyBatis Generator, do not modify.
     -->
     select 
     <include refid="Base_Column_List" />
@@ -107,14 +107,14 @@
   </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
     <!--
-      WARNING - @mbg.generated  This element was generated on Mon Jul 11 16:33:09 CST 2022. by MyBatis Generator, do not modify.
+      WARNING - @mbg.generated  This element was generated on Mon Jul 11 20:27:22 CST 2022. by MyBatis Generator, do not modify.
     -->
     delete from `meeting_room`
     where id = #{id,jdbcType=VARCHAR}
   </delete>
   <delete id="deleteByExample" parameterType="com.example.level1.entity.MeetingRoomExample">
     <!--
-      WARNING - @mbg.generated  This element was generated on Mon Jul 11 16:33:09 CST 2022. by MyBatis Generator, do not modify.
+      WARNING - @mbg.generated  This element was generated on Mon Jul 11 20:27:22 CST 2022. by MyBatis Generator, do not modify.
     -->
     delete from `meeting_room`
     <if test="_parameter != null">
@@ -123,7 +123,7 @@
   </delete>
   <insert id="insert" parameterType="com.example.level1.entity.MeetingRoom">
     <!--
-      WARNING - @mbg.generated  This element was generated on Mon Jul 11 16:33:09 CST 2022. by MyBatis Generator, do not modify.
+      WARNING - @mbg.generated  This element was generated on Mon Jul 11 20:27:22 CST 2022. by MyBatis Generator, do not modify.
     -->
     insert into `meeting_room` (id, `name`, seat_number
       )
@@ -132,7 +132,7 @@
   </insert>
   <insert id="insertSelective" parameterType="com.example.level1.entity.MeetingRoom">
     <!--
-      WARNING - @mbg.generated  This element was generated on Mon Jul 11 16:33:09 CST 2022. by MyBatis Generator, do not modify.
+      WARNING - @mbg.generated  This element was generated on Mon Jul 11 20:27:22 CST 2022. by MyBatis Generator, do not modify.
     -->
     insert into `meeting_room`
     <trim prefix="(" suffix=")" suffixOverrides=",">
@@ -160,7 +160,7 @@
   </insert>
   <select id="countByExample" parameterType="com.example.level1.entity.MeetingRoomExample" resultType="java.lang.Long">
     <!--
-      WARNING - @mbg.generated  This element was generated on Mon Jul 11 16:33:09 CST 2022. by MyBatis Generator, do not modify.
+      WARNING - @mbg.generated  This element was generated on Mon Jul 11 20:27:22 CST 2022. by MyBatis Generator, do not modify.
     -->
     select count(*) from `meeting_room`
     <if test="_parameter != null">
@@ -169,7 +169,7 @@
   </select>
   <update id="updateByExampleSelective" parameterType="map">
     <!--
-      WARNING - @mbg.generated  This element was generated on Mon Jul 11 16:33:09 CST 2022. by MyBatis Generator, do not modify.
+      WARNING - @mbg.generated  This element was generated on Mon Jul 11 20:27:22 CST 2022. by MyBatis Generator, do not modify.
     -->
     update `meeting_room`
     <set>
@@ -189,7 +189,7 @@
   </update>
   <update id="updateByExample" parameterType="map">
     <!--
-      WARNING - @mbg.generated  This element was generated on Mon Jul 11 16:33:09 CST 2022. by MyBatis Generator, do not modify.
+      WARNING - @mbg.generated  This element was generated on Mon Jul 11 20:27:22 CST 2022. by MyBatis Generator, do not modify.
     -->
     update `meeting_room`
     set id = #{record.id,jdbcType=VARCHAR},
@@ -201,7 +201,7 @@
   </update>
   <update id="updateByPrimaryKeySelective" parameterType="com.example.level1.entity.MeetingRoom">
     <!--
-      WARNING - @mbg.generated  This element was generated on Mon Jul 11 16:33:09 CST 2022. by MyBatis Generator, do not modify.
+      WARNING - @mbg.generated  This element was generated on Mon Jul 11 20:27:22 CST 2022. by MyBatis Generator, do not modify.
     -->
     update `meeting_room`
     <set>
@@ -216,7 +216,7 @@
   </update>
   <update id="updateByPrimaryKey" parameterType="com.example.level1.entity.MeetingRoom">
     <!--
-      WARNING - @mbg.generated  This element was generated on Mon Jul 11 16:33:09 CST 2022. by MyBatis Generator, do not modify.
+      WARNING - @mbg.generated  This element was generated on Mon Jul 11 20:27:22 CST 2022. by MyBatis Generator, do not modify.
     -->
     update `meeting_room`
     set `name` = #{name,jdbcType=VARCHAR},

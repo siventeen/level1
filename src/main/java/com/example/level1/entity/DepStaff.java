@@ -13,34 +13,34 @@ public class DepStaff implements Serializable {
     /**
      *
      *
-     * @mbg.generated Mon Jul 11 16:32:54 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:17 CST 2022
      */
     private String id;
 
     /**
      *
      *
-     * @mbg.generated Mon Jul 11 16:32:54 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:17 CST 2022
      */
     private String dep_id;
 
     /**
      *
      *
-     * @mbg.generated Mon Jul 11 16:32:54 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:17 CST 2022
      */
     private String staff_id;
 
     /**
      *
      *
-     * @mbg.generated Mon Jul 11 16:32:54 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:17 CST 2022
      */
     private String position;
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:32:54 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:17 CST 2022
      */
     private static final long serialVersionUID = 1L;
 
@@ -49,7 +49,7 @@ public class DepStaff implements Serializable {
      *
      * @return the value of dep_staff.id
      *
-     * @mbg.generated Mon Jul 11 16:32:54 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:17 CST 2022
      */
     public String getId() {
         return id;
@@ -57,7 +57,7 @@ public class DepStaff implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:32:54 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:17 CST 2022
      */
     public DepStaff withId(String id) {
         this.setId(id);
@@ -69,7 +69,7 @@ public class DepStaff implements Serializable {
      *
      * @param id the value for dep_staff.id
      *
-     * @mbg.generated Mon Jul 11 16:32:54 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:17 CST 2022
      */
     public void setId(String id) {
         this.id = id;
@@ -80,7 +80,7 @@ public class DepStaff implements Serializable {
      *
      * @return the value of dep_staff.dep_id
      *
-     * @mbg.generated Mon Jul 11 16:32:54 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:17 CST 2022
      */
     public String getDep_id() {
         return dep_id;
@@ -88,7 +88,7 @@ public class DepStaff implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:32:54 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:17 CST 2022
      */
     public DepStaff withDep_id(String dep_id) {
         this.setDep_id(dep_id);
@@ -100,7 +100,7 @@ public class DepStaff implements Serializable {
      *
      * @param dep_id the value for dep_staff.dep_id
      *
-     * @mbg.generated Mon Jul 11 16:32:54 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:17 CST 2022
      */
     public void setDep_id(String dep_id) {
         this.dep_id = dep_id;
@@ -111,7 +111,7 @@ public class DepStaff implements Serializable {
      *
      * @return the value of dep_staff.staff_id
      *
-     * @mbg.generated Mon Jul 11 16:32:54 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:17 CST 2022
      */
     public String getStaff_id() {
         return staff_id;
@@ -119,7 +119,7 @@ public class DepStaff implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:32:54 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:17 CST 2022
      */
     public DepStaff withStaff_id(String staff_id) {
         this.setStaff_id(staff_id);
@@ -131,7 +131,7 @@ public class DepStaff implements Serializable {
      *
      * @param staff_id the value for dep_staff.staff_id
      *
-     * @mbg.generated Mon Jul 11 16:32:54 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:17 CST 2022
      */
     public void setStaff_id(String staff_id) {
         this.staff_id = staff_id;
@@ -142,7 +142,7 @@ public class DepStaff implements Serializable {
      *
      * @return the value of dep_staff.position
      *
-     * @mbg.generated Mon Jul 11 16:32:54 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:17 CST 2022
      */
     public String getPosition() {
         return position;
@@ -150,7 +150,7 @@ public class DepStaff implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:32:54 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:17 CST 2022
      */
     public DepStaff withPosition(String position) {
         this.setPosition(position);
@@ -162,7 +162,7 @@ public class DepStaff implements Serializable {
      *
      * @param position the value for dep_staff.position
      *
-     * @mbg.generated Mon Jul 11 16:32:54 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:17 CST 2022
      */
     public void setPosition(String position) {
         this.position = position;
@@ -170,7 +170,7 @@ public class DepStaff implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:32:54 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:17 CST 2022
      */
     @Override
     public String toString() {
@@ -188,7 +188,7 @@ public class DepStaff implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:32:54 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:17 CST 2022
      */
     @Override
     public boolean equals(Object that) {
@@ -210,7 +210,7 @@ public class DepStaff implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:32:54 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:17 CST 2022
      */
     @Override
     public int hashCode() {

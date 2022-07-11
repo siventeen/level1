@@ -13,48 +13,48 @@ public class Staff implements Serializable {
     /**
      *
      *
-     * @mbg.generated Mon Jul 11 16:39:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:33 CST 2022
      */
     private String id;
 
     /**
      *
      *
-     * @mbg.generated Mon Jul 11 16:39:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:33 CST 2022
      */
     private String name;
 
     /**
      *
      *
-     * @mbg.generated Mon Jul 11 16:39:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:33 CST 2022
      */
     private String sex;
 
     /**
      *
      *
-     * @mbg.generated Mon Jul 11 16:39:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:33 CST 2022
      */
     private String phone;
 
     /**
      *
      *
-     * @mbg.generated Mon Jul 11 16:39:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:33 CST 2022
      */
     private String cloud_account;
 
     /**
      *
      *
-     * @mbg.generated Mon Jul 11 16:39:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:33 CST 2022
      */
     private String cloud_password;
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:39:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:33 CST 2022
      */
     private static final long serialVersionUID = 1L;
 
@@ -63,7 +63,7 @@ public class Staff implements Serializable {
      *
      * @return the value of staff.id
      *
-     * @mbg.generated Mon Jul 11 16:39:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:33 CST 2022
      */
     public String getId() {
         return id;
@@ -71,7 +71,7 @@ public class Staff implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:39:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:33 CST 2022
      */
     public Staff withId(String id) {
         this.setId(id);
@@ -83,7 +83,7 @@ public class Staff implements Serializable {
      *
      * @param id the value for staff.id
      *
-     * @mbg.generated Mon Jul 11 16:39:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:33 CST 2022
      */
     public void setId(String id) {
         this.id = id;
@@ -94,7 +94,7 @@ public class Staff implements Serializable {
      *
      * @return the value of staff.name
      *
-     * @mbg.generated Mon Jul 11 16:39:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:33 CST 2022
      */
     public String getName() {
         return name;
@@ -102,7 +102,7 @@ public class Staff implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:39:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:33 CST 2022
      */
     public Staff withName(String name) {
         this.setName(name);
@@ -114,7 +114,7 @@ public class Staff implements Serializable {
      *
      * @param name the value for staff.name
      *
-     * @mbg.generated Mon Jul 11 16:39:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:33 CST 2022
      */
     public void setName(String name) {
         this.name = name;
@@ -125,7 +125,7 @@ public class Staff implements Serializable {
      *
      * @return the value of staff.sex
      *
-     * @mbg.generated Mon Jul 11 16:39:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:33 CST 2022
      */
     public String getSex() {
         return sex;
@@ -133,7 +133,7 @@ public class Staff implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:39:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:33 CST 2022
      */
     public Staff withSex(String sex) {
         this.setSex(sex);
@@ -145,7 +145,7 @@ public class Staff implements Serializable {
      *
      * @param sex the value for staff.sex
      *
-     * @mbg.generated Mon Jul 11 16:39:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:33 CST 2022
      */
     public void setSex(String sex) {
         this.sex = sex;
@@ -156,7 +156,7 @@ public class Staff implements Serializable {
      *
      * @return the value of staff.phone
      *
-     * @mbg.generated Mon Jul 11 16:39:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:33 CST 2022
      */
     public String getPhone() {
         return phone;
@@ -164,7 +164,7 @@ public class Staff implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:39:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:33 CST 2022
      */
     public Staff withPhone(String phone) {
         this.setPhone(phone);
@@ -176,7 +176,7 @@ public class Staff implements Serializable {
      *
      * @param phone the value for staff.phone
      *
-     * @mbg.generated Mon Jul 11 16:39:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:33 CST 2022
      */
     public void setPhone(String phone) {
         this.phone = phone;
@@ -187,7 +187,7 @@ public class Staff implements Serializable {
      *
      * @return the value of staff.cloud_account
      *
-     * @mbg.generated Mon Jul 11 16:39:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:33 CST 2022
      */
     public String getCloud_account() {
         return cloud_account;
@@ -195,7 +195,7 @@ public class Staff implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:39:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:33 CST 2022
      */
     public Staff withCloud_account(String cloud_account) {
         this.setCloud_account(cloud_account);
@@ -207,7 +207,7 @@ public class Staff implements Serializable {
      *
      * @param cloud_account the value for staff.cloud_account
      *
-     * @mbg.generated Mon Jul 11 16:39:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:33 CST 2022
      */
     public void setCloud_account(String cloud_account) {
         this.cloud_account = cloud_account;
@@ -218,7 +218,7 @@ public class Staff implements Serializable {
      *
      * @return the value of staff.cloud_password
      *
-     * @mbg.generated Mon Jul 11 16:39:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:33 CST 2022
      */
     public String getCloud_password() {
         return cloud_password;
@@ -226,7 +226,7 @@ public class Staff implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:39:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:33 CST 2022
      */
     public Staff withCloud_password(String cloud_password) {
         this.setCloud_password(cloud_password);
@@ -238,7 +238,7 @@ public class Staff implements Serializable {
      *
      * @param cloud_password the value for staff.cloud_password
      *
-     * @mbg.generated Mon Jul 11 16:39:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:33 CST 2022
      */
     public void setCloud_password(String cloud_password) {
         this.cloud_password = cloud_password;
@@ -246,7 +246,7 @@ public class Staff implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:39:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:33 CST 2022
      */
     @Override
     public String toString() {
@@ -266,7 +266,7 @@ public class Staff implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:39:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:33 CST 2022
      */
     @Override
     public boolean equals(Object that) {
@@ -290,7 +290,7 @@ public class Staff implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:39:07 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:33 CST 2022
      */
     @Override
     public int hashCode() {

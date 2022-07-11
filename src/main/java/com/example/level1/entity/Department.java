@@ -13,34 +13,34 @@ public class Department implements Serializable {
     /**
      *
      *
-     * @mbg.generated Mon Jul 11 16:33:04 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:20 CST 2022
      */
     private String id;
 
     /**
      *
      *
-     * @mbg.generated Mon Jul 11 16:33:04 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:20 CST 2022
      */
     private String name;
 
     /**
      *
      *
-     * @mbg.generated Mon Jul 11 16:33:04 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:20 CST 2022
      */
     private String higher_dep_id;
 
     /**
      *
      *
-     * @mbg.generated Mon Jul 11 16:33:04 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:20 CST 2022
      */
     private String company_id;
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:33:04 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:20 CST 2022
      */
     private static final long serialVersionUID = 1L;
 
@@ -49,7 +49,7 @@ public class Department implements Serializable {
      *
      * @return the value of department.id
      *
-     * @mbg.generated Mon Jul 11 16:33:04 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:20 CST 2022
      */
     public String getId() {
         return id;
@@ -57,7 +57,7 @@ public class Department implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:33:04 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:20 CST 2022
      */
     public Department withId(String id) {
         this.setId(id);
@@ -69,7 +69,7 @@ public class Department implements Serializable {
      *
      * @param id the value for department.id
      *
-     * @mbg.generated Mon Jul 11 16:33:04 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:20 CST 2022
      */
     public void setId(String id) {
         this.id = id;
@@ -80,7 +80,7 @@ public class Department implements Serializable {
      *
      * @return the value of department.name
      *
-     * @mbg.generated Mon Jul 11 16:33:04 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:20 CST 2022
      */
     public String getName() {
         return name;
@@ -88,7 +88,7 @@ public class Department implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:33:04 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:20 CST 2022
      */
     public Department withName(String name) {
         this.setName(name);
@@ -100,7 +100,7 @@ public class Department implements Serializable {
      *
      * @param name the value for department.name
      *
-     * @mbg.generated Mon Jul 11 16:33:04 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:20 CST 2022
      */
     public void setName(String name) {
         this.name = name;
@@ -111,7 +111,7 @@ public class Department implements Serializable {
      *
      * @return the value of department.higher_dep_id
      *
-     * @mbg.generated Mon Jul 11 16:33:04 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:20 CST 2022
      */
     public String getHigher_dep_id() {
         return higher_dep_id;
@@ -119,7 +119,7 @@ public class Department implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:33:04 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:20 CST 2022
      */
     public Department withHigher_dep_id(String higher_dep_id) {
         this.setHigher_dep_id(higher_dep_id);
@@ -131,7 +131,7 @@ public class Department implements Serializable {
      *
      * @param higher_dep_id the value for department.higher_dep_id
      *
-     * @mbg.generated Mon Jul 11 16:33:04 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:20 CST 2022
      */
     public void setHigher_dep_id(String higher_dep_id) {
         this.higher_dep_id = higher_dep_id;
@@ -142,7 +142,7 @@ public class Department implements Serializable {
      *
      * @return the value of department.company_id
      *
-     * @mbg.generated Mon Jul 11 16:33:04 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:20 CST 2022
      */
     public String getCompany_id() {
         return company_id;
@@ -150,7 +150,7 @@ public class Department implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:33:04 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:20 CST 2022
      */
     public Department withCompany_id(String company_id) {
         this.setCompany_id(company_id);
@@ -162,7 +162,7 @@ public class Department implements Serializable {
      *
      * @param company_id the value for department.company_id
      *
-     * @mbg.generated Mon Jul 11 16:33:04 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:20 CST 2022
      */
     public void setCompany_id(String company_id) {
         this.company_id = company_id;
@@ -170,7 +170,7 @@ public class Department implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:33:04 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:20 CST 2022
      */
     @Override
     public String toString() {
@@ -188,7 +188,7 @@ public class Department implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:33:04 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:20 CST 2022
      */
     @Override
     public boolean equals(Object that) {
@@ -210,7 +210,7 @@ public class Department implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:33:04 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:20 CST 2022
      */
     @Override
     public int hashCode() {

@@ -13,27 +13,27 @@ public class Company implements Serializable {
     /**
      *
      *
-     * @mbg.generated Mon Jul 11 16:29:42 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:15 CST 2022
      */
     private String id;
 
     /**
      *
      *
-     * @mbg.generated Mon Jul 11 16:29:42 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:15 CST 2022
      */
     private String description;
 
     /**
      *
      *
-     * @mbg.generated Mon Jul 11 16:29:42 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:15 CST 2022
      */
     private String name;
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:29:42 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:15 CST 2022
      */
     private static final long serialVersionUID = 1L;
 
@@ -42,7 +42,7 @@ public class Company implements Serializable {
      *
      * @return the value of company.id
      *
-     * @mbg.generated Mon Jul 11 16:29:42 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:15 CST 2022
      */
     public String getId() {
         return id;
@@ -50,7 +50,7 @@ public class Company implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:29:42 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:15 CST 2022
      */
     public Company withId(String id) {
         this.setId(id);
@@ -62,7 +62,7 @@ public class Company implements Serializable {
      *
      * @param id the value for company.id
      *
-     * @mbg.generated Mon Jul 11 16:29:42 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:15 CST 2022
      */
     public void setId(String id) {
         this.id = id;
@@ -73,7 +73,7 @@ public class Company implements Serializable {
      *
      * @return the value of company.description
      *
-     * @mbg.generated Mon Jul 11 16:29:42 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:15 CST 2022
      */
     public String getDescription() {
         return description;
@@ -81,7 +81,7 @@ public class Company implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:29:42 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:15 CST 2022
      */
     public Company withDescription(String description) {
         this.setDescription(description);
@@ -93,7 +93,7 @@ public class Company implements Serializable {
      *
      * @param description the value for company.description
      *
-     * @mbg.generated Mon Jul 11 16:29:42 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:15 CST 2022
      */
     public void setDescription(String description) {
         this.description = description;
@@ -104,7 +104,7 @@ public class Company implements Serializable {
      *
      * @return the value of company.name
      *
-     * @mbg.generated Mon Jul 11 16:29:42 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:15 CST 2022
      */
     public String getName() {
         return name;
@@ -112,7 +112,7 @@ public class Company implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:29:42 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:15 CST 2022
      */
     public Company withName(String name) {
         this.setName(name);
@@ -124,7 +124,7 @@ public class Company implements Serializable {
      *
      * @param name the value for company.name
      *
-     * @mbg.generated Mon Jul 11 16:29:42 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:15 CST 2022
      */
     public void setName(String name) {
         this.name = name;
@@ -132,7 +132,7 @@ public class Company implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:29:42 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:15 CST 2022
      */
     @Override
     public String toString() {
@@ -149,7 +149,7 @@ public class Company implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:29:42 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:15 CST 2022
      */
     @Override
     public boolean equals(Object that) {
@@ -170,7 +170,7 @@ public class Company implements Serializable {
 
     /**
      *
-     * @mbg.generated Mon Jul 11 16:29:42 CST 2022
+     * @mbg.generated Mon Jul 11 20:27:15 CST 2022
      */
     @Override
     public int hashCode() {
