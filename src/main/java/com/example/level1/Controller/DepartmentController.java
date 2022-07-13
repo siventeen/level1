@@ -1,8 +1,10 @@
 package com.example.level1.Controller;
 
 import com.example.level1.entity.Company;
+import com.example.level1.entity.Department;
 import com.example.level1.result.AjaxResult;
-import com.example.level1.service.CompanyService;
+import com.example.level1.service.DepartmentService;
+import com.sun.media.sound.AiffFileReader;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -10,70 +12,67 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @Controller
-public class CompanyController {
+public class DepartmentController {
     @Autowired
-    CompanyService companyService;
+    DepartmentService departmentService;
 
     @CrossOrigin
-    @GetMapping(value = "/api/getAllCompany")
+    @GetMapping(value = "/api/getAllDepartment")
     @ResponseBody
-    public AjaxResult getAllCompany(){
-        List<Company> result = null;
+    public AjaxResult getAllDepartment(){
+        List<Department> result = null;
         boolean isSuccess = true;
         try {
-            result = companyService.getAllCompany();
+            result = departmentService.getAllDepartment();
         } catch (Exception e) {
             isSuccess = false;
-            System.out.println("查询所有公司失败");
+            System.out.println("查询所有部门失败");
             e.printStackTrace();
         }
         if (isSuccess){
             return AjaxResult.success(result);
         }
         else {
-            return AjaxResult.error("查询所有公司失败");
+            return AjaxResult.error("查询所有部门失败");
         }
     }
 
     @CrossOrigin
-    @GetMapping(value = "/api/getCompanyByName")
+    @GetMapping(value = "/api/getDepartmentByName")
     @ResponseBody
-    public AjaxResult getCompanyByName(@RequestParam String name){
-        List<Company> result = null;
+    public AjaxResult getDepartmentByName(@RequestParam String name){
+        List<Department> result = null;
         boolean isSuccess = true;
         try {
-            result = companyService.getCompanyByName(name);
+            result = departmentService.getDepartmentByName(name);
         } catch (Exception e) {
             isSuccess = false;
-            System.out.println("查询公司失败");
+            System.out.println("查询部门失败");
             e.printStackTrace();
         }
         if (isSuccess){
-            if (result.isEmpty()){
-                return AjaxResult.error("无该公司");
-            }
             return AjaxResult.success(result);
         }
         else {
-            return AjaxResult.error("查询公司失败");
+            return AjaxResult.error("查询部门失败");
         }
     }
 
     @CrossOrigin
-    @PostMapping(value = "/api/addCompany")
+    @PostMapping(value = "/api/addDepartment")
     @ResponseBody
-    public AjaxResult addCompany (@RequestBody Company company) {
+    public AjaxResult addDepartment (@RequestBody Department department) {
         boolean isSuccess = true;
-        String msg = "添加公司成功！";
+        String msg = "添加部门成功！";
 
         try {
-            companyService.addCompany(company);
+            departmentService.addDepartment(department);
         } catch (Exception e) {
             msg = e.getMessage();
             isSuccess = false;
         }
         if (isSuccess){
-            return  AjaxResult.success(msg);
+            return AjaxResult.success(msg);
         }
         else {
             return AjaxResult.error(msg);
@@ -81,14 +80,14 @@ public class CompanyController {
     }
 
     @CrossOrigin
-    @DeleteMapping(value = "/api/deleteCompanies")
+    @DeleteMapping(value = "/api/deleteDepartment")
     @ResponseBody
-    public AjaxResult deleteCompanies(@RequestBody List<Company> companies){
+    public AjaxResult deleteDepartment (@RequestBody List<Department> departments){
         boolean isSuccess = true;
-        String msg = "删除公司成功！";
+        String msg = "删除部门成功！";
 
         try {
-            companyService.deleteCompanies(companies);
+            departmentService.deleteDepartment(departments);
         } catch (Exception e) {
             msg = e.getMessage();
             isSuccess = false;
@@ -101,13 +100,13 @@ public class CompanyController {
     }
 
     @CrossOrigin
-    @PutMapping(value = "/api/updateCompany")
+    @PutMapping(value = "/api/updateDepartment")
     @ResponseBody
-    public AjaxResult updateCompany(@RequestBody Company company){
+    public AjaxResult updateDepartment(@RequestBody Department department){
         boolean isSuccess = true;
-        String msg = "更新公司成功！";
+        String msg = "更新部门成功！";
         try {
-            companyService.updateCompany(company);
+            departmentService.updateDepartment(department);
         } catch (Exception e) {
             msg = e.getMessage();
             isSuccess = false;
@@ -118,5 +117,6 @@ public class CompanyController {
             return AjaxResult.error(msg);
         }
     }
+
 
 }
